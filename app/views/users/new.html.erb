@@ -1,0 +1,10 @@
+<%= form_tag(users_path, method: :post) do %>
+    <!-- ここにform_tagメソッドを記述 -->
+    <p>名前</p>
+    <%= text_field_tag :name %>
+    <p>Eメール</p>
+    <%= email_field_tag :email %>
+    <p>日時</p>
+    <%= date_field_tag :day %>
+    <%= submit_tag %>
+<% end %>

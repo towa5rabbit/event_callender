@@ -2,18 +2,18 @@
 
 <p>
   <strong>Title:</strong>
-  <%= @event.title %>
+  <%= @user.name %>
 </p>
 
 <p>
   <strong>Content:</strong>
-  <%= @event.content %>
+  <%= @user.email %>
 </p>
 
 <p>
   <strong>Start time:</strong>
-  <%= @event.start_time.strftime("%Y年%m月%d日") %>
+  <%= @user.day %>
 </p>
 
-<%= link_to 'Edit', edit_event_path(@event) %> |
+<%= link_to 'Edit', edit_user_path(@user) %> 
 <%= link_to 'Back', events_path %>

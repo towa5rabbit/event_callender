@@ -82,3 +82,17 @@ div {
 label {
   display: block;
 }
+
+header{
+    height: 120px;
+    background-color: orange;
+}
+
+.header-logo h1{
+  padding-top: 20px;
+  color: white;
+  font-size: 60px;
+}
+.header-list{
+  float: right;
+}

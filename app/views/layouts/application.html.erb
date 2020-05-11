@@ -9,6 +9,18 @@
   </head>
 
   <body>
+    <header>
+      <div class = "header-logo">
+        <h1>Events Callender</h1>
+      </div>
+      <div class = "header-list">
+        <ul>
+          <%= link_to("TOP", "/") %>
+          <%= link_to("応募フォーム", "/users/new") %>
+        </ul>
+      </div>
+    </header>
+
     <%= yield %>
   </body>
 </html>
