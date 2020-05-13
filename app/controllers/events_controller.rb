@@ -49,7 +49,8 @@ class EventsController < ApplicationController
       format.json { head :no_content }
     end
   end
-
+  
+  
   private
     
     def set_event
@@ -60,3 +61,4 @@ class EventsController < ApplicationController
       params.require(:event).permit(:title, :content, :start_time)
     end
 end
+
